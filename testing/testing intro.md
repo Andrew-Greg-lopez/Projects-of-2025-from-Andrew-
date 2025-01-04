@@ -24,7 +24,7 @@ Here are some of the technologies and skills I've worked with:
 
 ---
 
-###🗂️ **Projects**
+### 🗂️ **Projects**
 
 ### 1️⃣ [Files.cc]
 - **Description**: This project demonstrates file handling, error checks, and basic computations.
@@ -33,7 +33,7 @@ Here are some of the technologies and skills I've worked with:
 
 ---
 
-###📞 **Connect with me**
+### 📞 **Connect with me**
 
 - **Email**:[andrewlopez472@yahoo.com]
 
