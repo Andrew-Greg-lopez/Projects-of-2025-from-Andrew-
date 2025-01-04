@@ -23,3 +23,11 @@ Here are some of the technologies and skills I've worked with:
 - **Frameworks**: React, Node.js
 
 --
+
+##🗂️ **Projects**
+
+### 1️⃣ [Files.cc]
+- **Description**: This project demonstrates file handling, error checks, and basic computations.
+- **Tools**: C++, GCC/Clang
+- [View Proof of code](1)
+
