@@ -4,7 +4,7 @@
 
 ---
 
-##🤙 **About Me**
+###🤙 **About Me**
 
 Hello! My name is **Andrew**, and I'm a passionate **Computer Science Major**
 I love doing technology and building projects that help this world.
@@ -14,7 +14,7 @@ Feel free to explore and reach out if you'd like to collaborate or learn more
 
 ---
 
-##🐺 **Skills**
+###🐺 **Skills**
 
 Here are some of the technologies and skills I've worked with:
 
@@ -24,7 +24,7 @@ Here are some of the technologies and skills I've worked with:
 
 ---
 
-##🗂️ **Projects**
+###🗂️ **Projects**
 
 ### 1️⃣ [Files.cc]
 - **Description**: This project demonstrates file handling, error checks, and basic computations.
@@ -33,7 +33,7 @@ Here are some of the technologies and skills I've worked with:
 
 ---
 
-##📞 **Connect with me**
+###📞 **Connect with me**
 
 - **Email**:[andrewlopez472@yahoo.com]
 
