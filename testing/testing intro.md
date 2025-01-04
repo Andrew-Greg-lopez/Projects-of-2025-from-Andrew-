@@ -16,4 +16,10 @@ Feel free to explore and reach out if you'd like to collaborate or learn more
 
 ##🐺 **Skills**
 
-H
+Here are some of the technologies and skills I've worked with:
+
+- **Languages**: C++,Python,Java
+- **Tools**: Git, Visual Studio code, Codiva.io
+- **Frameworks**: React, Node.js
+
+--
