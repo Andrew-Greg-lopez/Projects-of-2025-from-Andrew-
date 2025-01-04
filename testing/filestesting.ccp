@@ -16,4 +16,11 @@ int main() {
   inputFile.open(filename);
   if(!inputFile) {
   count << "Error: File not found!" << end1;
+  return 1;
+}
+
+if (count == 0) {
+
+
+}
 
