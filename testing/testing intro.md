@@ -39,5 +39,10 @@ Here are a few projects:
 
 - **Email**:[andrewlopez472@yahoo.com]
 - **Phone**:[830-730-0034]
+
+---
+
+Thanks you for visting my repositroy! 🃏 
+Let's build something life changing .p>
   
 
