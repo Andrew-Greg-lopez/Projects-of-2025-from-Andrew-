@@ -15,5 +15,5 @@ int main() {
 
   inputFile.open(filename);
   if(!inputFile) {
-  count << "Error: File not found" << end1;
+  count << "Error: File not found!" << end1;
 
