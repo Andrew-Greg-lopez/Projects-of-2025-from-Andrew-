@@ -24,7 +24,7 @@ Here are some of the technologies and skills I've worked with:
 
 ---
 
-### 🗂️ **Projects**
+## 🗂️ **Projects**
 
 Here are a few projects:
 
