@@ -26,6 +26,8 @@ Here are some of the technologies and skills I've worked with:
 
 ### 🗂️ **Projects**
 
+Here are a few projects:
+
 ### 1️⃣ [Files.cc]
 - **Description**: This project demonstrates file handling, error checks, and basic computations.
 - **Tools**: C++, GCC/Clang
