@@ -14,7 +14,7 @@ Feel free to explore and reach out if you'd like to collaborate or learn more
 
 ---
 
-### 🐺 **Skills**
+## 🐺 **Skills**
 
 Here are some of the technologies and skills I've worked with:
 
@@ -35,7 +35,7 @@ Here are a few projects:
 
 ---
 
-### 📞 **Connect with me**
+## 📞 **Connect with me**
 
 - **Email**:[andrewlopez472@yahoo.com]
 
