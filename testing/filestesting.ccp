@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <iomianip>
+#include <iomainip>
 
 using namespace std;
 
