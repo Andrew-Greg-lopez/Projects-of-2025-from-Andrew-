@@ -10,3 +10,8 @@ int main() {
   ifstream inputFile;
   int number, count = 0, sum = 0;
 
+  count << "Enter the filename: ";
+  cin >> filename;
+
+  inputFile.open(filename);
+
