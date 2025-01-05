@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <iomainip>
+#include <iomanip>
 
 using namespace std;
 
@@ -10,17 +10,29 @@ int main() {
   ifstream inputFile;
   int number, count = 0, sum = 0;
 
-  count << "Enter the filename: ";
+  cout << "Enter the filename: ";
   cin >> filename;
 
   inputFile.open(filename);
   if(!inputFile) {
-  count << "Error: File not found!" << end1;
+   cout << "Error: File not found!" << endl; //
   return 1;
 }
 
-if (count == 0) {
-
-
+  while (inputFile >> number) {
+  sum += number;
+  count++;
 }
 
+
+if (count == 0) {
+cout << "Not working right now maybe later" << end;
+} else{
+cout << "Count: " << count << endl; 
+ cout << "Sum: " << sum << endl;
+ cout << fixed << setprecision(2) << "Average: " << static_cast<double>(sum) / count << endl;
+}
+
+inputFile.close();
+return 0;
+}
