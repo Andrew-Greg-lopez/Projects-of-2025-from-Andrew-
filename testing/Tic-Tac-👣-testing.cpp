@@ -2,4 +2,5 @@
 using namespace std;
 
 
-voide displayBoard(char board [3][3]);
+void displayBoard(char board [3][3]);
+bool checkWin(char board[3][3]. char player;
