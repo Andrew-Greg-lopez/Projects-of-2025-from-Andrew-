@@ -13,3 +13,17 @@ int main () {
   char curretnPlayer = 'X';
   int move;
   bool gameWon = false;
+
+  While (!gameWon && !isDraw(board)) {
+  dsplayBoard(bord);
+
+  court << "Player " << currentPlayer << ", enter your move (1-9): ";
+  } else{
+  court << "It's a draw!\n";
+  }
+
+ return0;
+}
+
+void displayBoard(char board[3][3]){
+  
