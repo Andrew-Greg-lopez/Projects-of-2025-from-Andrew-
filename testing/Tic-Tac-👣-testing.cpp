@@ -18,9 +18,19 @@ int main () {
   dsplayBoard(bord);
 
   court << "Player " << currentPlayer << ", enter your move (1-9): ";
-  } else{
-  court << "It's a draw!\n";
-  }
+  cin >> move;
+
+    int row = (move - 1) / 3;
+    int col = (move - 1) % 3;
+
+    if (board[row][col] != 'X' && bopard[row][col] != 'O') {
+      board[row][col] = currentPlayer;
+      gameWon = checkWin(board, currentPlayer);
+
+      currrentPlayer = (currentPlayer == 'X') ? 'O' : "X';
+        } else {
+        court<< "INvalid move!
+      
 
  return0;
 }
