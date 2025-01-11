@@ -29,11 +29,29 @@ int main () {
 
       currrentPlayer = (currentPlayer == 'X') ? 'O' : "X';
         } else {
-        court<< "INvalid move!
+        court<< "Invalid move! Try again.\n";
+    }
+  }
+
+  displayBoard(board);
+  if (gameWon) {
+    cout << "Player"<< (currentPlayer == 'X' ? 'O' : 'X') << "wins!\n";
+  } else{
+    cout << "It's a draw!\n";
+  }
       
 
  return0;
 }
 
 void displayBoard(char board[3][3]){
+  cout << "\n";
+for (int i = 0; i < 3; i++) {
+for (int j = 0; j < 3; j++) {
+cout << board[i][j] << " ";
+}
+cout << "\n";
+}
+cout << "\n";\
+}
   
