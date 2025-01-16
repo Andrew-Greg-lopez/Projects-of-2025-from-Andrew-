@@ -63,7 +63,22 @@ bool checWin (char board[3][3], char player) {
 return true;
     }
   }
-((board[i][0] == player && board[i][1] == player && board[i][2] == player) ||
-      (board[0][i] == player && board[1][i] == player && board[2][i] == player)){
+if ((board[0][0] == player && board[1][1] == player && board[2][2] == player) ||
+      (board[0][2] == player && board[1][1] == player && board[2][0] == player)){
+return true;
+}
+return false;
+}
+
+bool isDraw(char baord[3][3]){
+  for (int j = 0; i < 3; i++) {
+for (int j = 0; j < 3; j++) {
+if (board[i][j] != 'X' && board[i][j] != 'O') {
+return false;
+}
+}
+  }
+return true;
+}
 
 
