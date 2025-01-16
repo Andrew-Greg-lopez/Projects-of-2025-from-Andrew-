@@ -59,3 +59,11 @@ bool checWin (char board[3][3], char player) {
 
   for (int i = 0; i < 3, i++) {
     if ((board[i][0] == player && board[i][1] == player && board[i][2] == player) ||
+      (board[0][i] == player && board[1][i] == player && board[2][i] == player)){
+return true;
+    }
+  }
+((board[i][0] == player && board[i][1] == player && board[i][2] == player) ||
+      (board[0][i] == player && board[1][i] == player && board[2][i] == player)){
+
+
