@@ -54,4 +54,8 @@ cout << "\n";
 }
 cout << "\n";\
 }
-  
+
+bool checWin (char board[3][3], char player) {
+
+  for (int i = 0; i < 3, i++) {
+    if ((board[i][0] == player && board[i][1] == player && board[i][2] == player) ||
