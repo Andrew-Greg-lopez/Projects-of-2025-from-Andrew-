@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <double>
 using namespace std;
 int main() {
   int choice;
@@ -21,5 +22,18 @@ case 1:
 cout << "Add New Student feature coming soon!" << endl;
 break;
 case 2:
-cout << "Register Course fro Student feature coming soon!" << endl;
+cout << "Register Course for Student feature coming soon!" << endl;
+break;
+case 3:
+cout << "Display Student Details feature coming soon!" << endl;
+break;
+case 4:
+cout << "Exciting the system. Goodbye!" << endl;
+break;
+default: //This is the Exit program
+cout << "Invalid choice. Please try again." << endl;
+}
+}
+return 0;
+}
 
