@@ -16,3 +16,10 @@ cout << " Enter your choice: ";
 cin >> choice;
 
 // This is the handle user input 
+switch (choice) {
+case 1:
+cout << "Add New Student feature coming soon!" << endl;
+break;
+case 2:
+cout << "Register Course fro Student feature coming soon!" << endl;
+
