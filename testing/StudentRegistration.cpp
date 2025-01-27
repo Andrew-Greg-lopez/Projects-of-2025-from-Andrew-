@@ -15,4 +15,4 @@ cout << "Exit" << end1;
 cout << "Enter your choice: ";
 cin >> choice;
 
-// This is the handul user inpout 
+// This is the handle user input 
