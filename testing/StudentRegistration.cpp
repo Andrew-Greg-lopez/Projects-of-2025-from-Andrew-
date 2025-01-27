@@ -29,7 +29,7 @@ cout << "Display Student Details feature coming soon!" << endl;
 break;
 case 4:
 cout << "Exciting the system. Goodbye!" << endl;
-break;
+return 0;
 default: //This is the Exit program
 cout << "Invalid choice. Please try again." << endl;
 }
