@@ -54,6 +54,40 @@ int main() {
   vector<Student> students; // all students will be stored here
   int choice;
 
+//This will show the menu Loop
+while (true) {
+// This will Display menu options
+cout << "\nStudent Registration System" << endl;
+cout << "1. Add New Student" << endl;
+cout << "2. Register Course for Student" << endl;
+cout << "3. Display Student Details" << endl;
+cout << "4. Exit" << endl;
+cout << " Enter your choice: ";
+cin >> choice;
+
+// Handle menu choices
+switch (choice) {
+case 1:
+addStudent(students);
+break;
+case 2:
+registerStudent(students);
+break;
+case 3:
+displayStudent(students);
+break;
+case 4:
+cout << "Exiting the system. Goodbye!" << endl;
+return 0;
+default:
+cout << "Invalid choice. Please try again. " << endl;
+}
+}
+
+return 0;
+}
+
+
 
 
 
