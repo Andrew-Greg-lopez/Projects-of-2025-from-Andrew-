@@ -32,7 +32,7 @@ void registerCourse(const string& courseName) {
 
 // function to show student details and registered courses
 
-void displayDetails() {
+void displayDetails() const {
   cout << "Student Name: " << name << endl;
   cout << "Registered Courses:" << endl;
   if (courses.empty()) {
@@ -90,7 +90,7 @@ return 0;
 // This will add new student 
 void addStudent(vector<Student>& students) {
   string name;
-  cour << "Enter student name: ";
+  cout << "Enter student name: ";
   cin.ignore();
   getline(cin, name);
   students.push_back(Student(name));
@@ -99,12 +99,12 @@ void addStudent(vector<Student>& students) {
 
 // to register for a course for a student 
 void registerStudent(vector<Student>& students) {
-  if (student.empty()) {
+  if (students.empty()) {
   cout << "No students available. Please add a student first." << endl;
 return;
   }
 
-int studentIndex
+int studentIndex;
 string courseName;
 
 // Display students
@@ -127,7 +127,30 @@ cin.ignore();
 getline(cin, courseName);
 
 students[studentIndex - 1].registerCourse(courseName);
-cout << "Course regisered successfully!" << endl;
+cout << "Course registered successfully!" << endl;
+}
+
+// function to display student details
+void displayStudent(const vector<Student>& students) {
+  if (students.empty()) {
+cout << "No students available to display. " << endl;
+return;
+  }
+
+int studentIndex;
+
+// Shows student 
+cout <<"Select student (by number): ";
+cin >> studentIndex;
+
+if (studentIndex < 1 || studentIndex > students.size()) {
+cout << "Invaild selection. Try again." << endl;
+return;
+}
+
+// Shows student details 
+students[studentIndex - 1 ].displayDetails();
+}
 
 
 
