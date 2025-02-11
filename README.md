@@ -33,8 +33,8 @@ Here are a few projects:
 - **Tools**: C++, GCC/Clang
 - [View Proof of code](https://github.com/Andrew-Greg-lopez/Projects-of-2025-from-Andrew-/blob/main/finished%20/Files.cpp)
 
- ### 2️⃣ [Files.cc]
-- **Description**: This project demonstrates file handling, error checks, and basic computations.
+ ### 2️⃣ [Tic-Tac-👣.cc]
+- **Description**: A basic Tic-Tac-Toe game for two players. it handles turns, checks for a winner, and presents bad input. simple but fun! 
 - **Tools**: C++, GCC/Clang
 - [View Proof of code](https://github.com/Andrew-Greg-lopez/Projects-of-2025-from-Andrew-/blob/main/finished%20/Tic-Tac-%F0%9F%91%A3.cpp)
 
