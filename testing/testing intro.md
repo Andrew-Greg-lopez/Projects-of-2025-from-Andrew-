@@ -42,7 +42,7 @@ Here are a few projects:
 
 ---
 
-Thanks you for visting my repositroy! 🃏 
-Let's build something life changing .p>
+Thank you for visiting my repository! 🃏 
+Let's build something life-changing .p>
   
 
