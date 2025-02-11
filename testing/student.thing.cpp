@@ -87,6 +87,47 @@ cout << "Invalid choice. Please try again. " << endl;
 return 0;
 }
 
+// This will add new student 
+void addStudent(vector<Student>& students) {
+  string name;
+  cour << "Enter student name: ";
+  cin.ignore();
+  getline(cin, name);
+  students.push_back(Student(name));
+  cout << "Student added successfully!" <<endl;
+}
+
+// to register for a course for a student 
+void registerStudent(vector<Student>& students) {
+  if (student.empty()) {
+  cout << "No students available. Please add a student first." << endl;
+return;
+  }
+
+int studentIndex
+string courseName;
+
+// Display students
+cout << "Available Student:" << endl;
+for (size_t i = 0; i < students.size(); i++) {
+cout << i + 1 << "." << students[i].name << endl;
+}
+
+// Select student
+cout << "Select student (by number):";
+cin >> studentIndex;
+
+if (studentIndex < 1 || studentIndex > students.size()) {
+cout << "Invalid selection. Try again." << endl;
+return;
+}
+// register for a course
+cout << "Enter course name: ";
+cin.ignore();
+getline(cin, courseName);
+
+students[studentIndex - 1].registerCourse(courseName);
+cout << "Course regisered successfully!" << endl;
 
 
 
