@@ -39,7 +39,7 @@ Here are a few projects:
 - [View Proof of code](https://github.com/Andrew-Greg-lopez/Projects-of-2025-from-Andrew-/blob/main/finished%20/Tic-Tac-%F0%9F%91%A3.cpp)
 
  ### 3️⃣ [StudentRegistration.cc]
-- **Description**: This project demonstrates file handling, error checks, and basic computations.
+- **Description**: A simple but effective student registration system to add students, register the courses, and show details with the input.
 - **Tools**: C++, GCC/Clang
 - [View Proof of code](https://github.com/Andrew-Greg-lopez/Projects-of-2025-from-Andrew-/blob/main/finished%20/Files.cpp)
 
