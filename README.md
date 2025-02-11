@@ -33,7 +33,7 @@ Here are a few projects:
 - **Tools**: C++, GCC/Clang
 - [View Proof of code](https://github.com/Andrew-Greg-lopez/Projects-of-2025-from-Andrew-/blob/main/finished%20/Files.cpp)
 
-- ### 1️⃣ [Files.cc]
+ ### 1️⃣ [Files.cc]
 - **Description**: This project demonstrates file handling, error checks, and basic computations.
 - **Tools**: C++, GCC/Clang
 - [View Proof of code](https://github.com/Andrew-Greg-lopez/Projects-of-2025-from-Andrew-/blob/main/finished%20/Files.cpp)
